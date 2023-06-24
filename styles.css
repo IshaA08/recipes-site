@@ -1,9 +1,18 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 210, 231);
 }
 
 h1 {
     text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-page-recipes-list {
@@ -13,4 +22,13 @@ h1 {
 .main-page-recipes-list ul {
     display: inline-block;
     text-align: left;
+}
+
+.food-description {
+    width: 1000px;
+    /*border: 2px solid red;*/
+}
+
+.food-description p {
+    word-wrap: normal;
 }
